@@ -20,6 +20,9 @@ public class Main {
             System.out.println("Suitable plateau identified. Specify landing coordinates: (e.g. 0 0 [N | S | W | E])");
             String positionInput = scanner.nextLine();
             Position position = InputParser.parsePosition(positionInput);
+            if (position.getX() > plateauSize.getX() || position.getY() > plateauSize.getY()) {
+                throw new IllegalArgumentException("Specified position is out of plateau's bounds. Launch aborted.");
+            }
 
             System.out.println("Landing coordinates set. Initiating launching protocols.");
             System.out.println("3");

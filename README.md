@@ -1,4 +1,4 @@
-# Mars-Rover-Challenge
+# Mars Rover Challenge
 This project aims to create a program that can take in input defining a plateau size and a rover position to launch a rover on Mars. The user can then input instructions to either rotate or move the rover along the plateau.
 
 # Steps explaining how to input instructions correctly:

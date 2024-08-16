@@ -1,10 +1,5 @@
 package logic.layer;
 
-import input.layer.CompassDirection;
-import input.layer.Instruction;
-import input.layer.PlateauSize;
-import input.layer.Position;
-
 public class Rover {
     Position position;
     PlateauSize plateauSize;

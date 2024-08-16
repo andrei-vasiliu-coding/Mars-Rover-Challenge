@@ -1,10 +1,12 @@
 package input.layer;
 
-import org.junit.jupiter.api.Assertions;
+import logic.layer.CompassDirection;
+import logic.layer.Instruction;
+import logic.layer.PlateauSize;
+import logic.layer.Position;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import javax.naming.InsufficientResourcesException;
 import java.util.List;
 
 import static input.layer.InputParser.*;

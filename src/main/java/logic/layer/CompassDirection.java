@@ -1,4 +1,4 @@
-package input.layer;
+package logic.layer;
 
 public enum CompassDirection {
     N,

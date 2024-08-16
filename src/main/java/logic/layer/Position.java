@@ -1,4 +1,4 @@
-package input.layer;
+package logic.layer;
 
 public class Position {
     private int x;
@@ -6,8 +6,18 @@ public class Position {
     private CompassDirection facing;
 
     public Position(int x, int y, CompassDirection facing) {
-        this.x = x;
-        this.y = y;
+        if (x >= 0) {
+            this.x = x;
+        } else {
+            throw new IllegalArgumentException("Position must be a positive integer.");
+        }
+
+        if (y >= 0) {
+            this.y = y;
+        } else {
+            throw new IllegalArgumentException("Position must be a positive integer.");
+        }
+
         this.facing = facing;
     }
 

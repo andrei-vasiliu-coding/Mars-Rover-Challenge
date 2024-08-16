@@ -1,5 +1,10 @@
 package input.layer;
 
+import logic.layer.CompassDirection;
+import logic.layer.Instruction;
+import logic.layer.PlateauSize;
+import logic.layer.Position;
+
 import java.util.*;
 
 public class InputParser {

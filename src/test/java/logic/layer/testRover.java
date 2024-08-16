@@ -1,9 +1,6 @@
 package logic.layer;
 import static input.layer.InputParser.*;
 
-import input.layer.CompassDirection;
-import input.layer.Instruction;
-import input.layer.PlateauSize;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
